@@ -1,0 +1,20 @@
+= Generate Charts and Barcodes using Python
+
+Some examples guaranteed to run OoTB. No python version hassle, no finding all the required packages and all.
+
+== Prerequisits
+- Docker/Podmamn
+- Visual Studio Code w DevContainer Extension
+
+== Whats in it
+
+=== Charting
+. donut_chart.py
+
+=== Barcodes
+. BarCoder.py
+
+=== QR Codes
+QR Codes are generated using https://segno.readthedocs.io/en/latest/[segno] package. The animated qr code makes use of the https://pypi.org/project/qrcode-artistic/[qrcode artistic] plugin.
+. basic_qrcode.py
+. animated_qr-code.py

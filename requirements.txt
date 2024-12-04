@@ -1,0 +1,5 @@
+matplotlib
+python-barcode
+segno
+qrcode-artistic
+requests

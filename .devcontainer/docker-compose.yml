@@ -1,0 +1,15 @@
+services:
+  dc-charts-using-python:
+    container_name: dc-charts-using-python
+    hostname: dc-charts-using-python.local
+    environment:
+      - VAR1=${VAR1_FROM_DOT_ENV}
+      - VAR2=${VAR2_FROM_DOT_ENV}
+    build:
+      context: .
+    working_dir: /src
+    volumes:
+      - ..:/src:cached
+    command: >
+      bash -c "sleep infinity"
+ 
