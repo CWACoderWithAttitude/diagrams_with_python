@@ -1,20 +1,56 @@
 = Generate Charts and Barcodes using Python
 
-Some examples guaranteed to run OoTB. No python version hassle, no finding all the required packages and all.
+== Whats in it
+Some examples of turning information into visuals.
+Inspired by awesome  https://www.linkedin.com/company/pythonclcoding/posts/[Python Coding Community on Linkedin]
+
+Some of their published examples examples require some extra steps which i couldn't find in the description.  
+
+This devcontainer should have you covered and everything should work OotB.
+
 
 == Prerequisits
 - Docker/Podmamn
 - Visual Studio Code w DevContainer Extension
 
-== Whats in it
 
-=== Charting
-. donut_chart.py
+==== Charting
+
+==== Donut Charts
+. file://./DonutCharts.py[DonutCharts.py]
+
+image::images/donut_chart.png[]
+
+=== https://www.linkedin.com/posts/pythonclcoding_sunburst-chart-in-python-httpslnkdin-activity-7269372257771114496-06Nu[Sunburst Diagram]
+
+. SunburstCharts.py
+
+image::images/awesome_sunburst.png[]
+
+=== Violin Charts
+
+. ViolinCharts.py
+
+image::images/awesome_violin_plot.png[]
+
 
 === Barcodes
+Generate `EAN-13` barcodes.
 . BarCoder.py
+
+image::images/4002590140452.png[]
 
 === QR Codes
 QR Codes are generated using https://segno.readthedocs.io/en/latest/[segno] package. The animated qr code makes use of the https://pypi.org/project/qrcode-artistic/[qrcode artistic] plugin.
+
 . basic_qrcode.py
+
+image::images/qr_devContainers.png['Awesome devcontainers']
+
 . animated_qr-code.py
+
+image::images/animated_qr_code.gif[]
+
+
+== Links
+* https://plotly.com/python/getting-started/#static-image-export[Export static images from plotly.express]

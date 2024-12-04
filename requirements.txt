@@ -3,3 +3,7 @@ python-barcode
 segno
 qrcode-artistic
 requests
+plotly
+pandas
+kaleido
+numpy
