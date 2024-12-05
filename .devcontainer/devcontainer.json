@@ -19,28 +19,19 @@
         "typescript.preferences.quoteStyle": "single",
         "[python]": {}
       },
+      "[python]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "charliermarsh.ruff"
+      },
       "extensions": [
-        "adpyke.codesnap",
-        "donjayamanne.python-extension-pack",
-        "dzhavat.git-cheatsheet",
-        "EditorConfig.EditorConfig",
-        "ms-azuretools.vscode-docker",
-        "PKief.material-icon-theme",
-        "streetsidesoftware.code-spell-checker",
-        "wesbos.theme-cobalt2",
-        "ms-python.autopep8",
-        "mohsen1.prettify-json",
         "ms-python.python",
-        "anweber.vscode-httpyac",
-        "asciidoctor.asciidoctor-vscode",
-        "humao.rest-client",
-        "anweber.httpbook"
+        "charliermarsh.ruff"
       ]
     }
   },
   "service": "dc-charts-using-python",
   "workspaceFolder": "/src",
   "remoteUser": "vscode",
-  "postStartCommand": "python generic_hello.py && pip install -r requirements.txt",
+  "postStartCommand": "pip install -r requirements.txt",
   "shutdownAction": "stopCompose"
 }
