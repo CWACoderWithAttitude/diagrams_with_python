@@ -27,7 +27,9 @@ image::images/donut_chart.png[]
 
 image::images/awesome_sunburst.png[]
 
-=== Violin Charts
+image::images/awesome_bar-chart.png[]
+
+=== Violin Chart
 
 . ViolinCharts.py
 
@@ -55,4 +57,4 @@ image::images/animated_qr_code.gif[]
 == Links
 * https://plotly.com/python/getting-started/#static-image-export[Export static images from plotly.express]
 * Default https://docs.astral.sh/ruff/configuration/#__tabbed_1_2[ruff.toml] from here.
-https://leonardofaria.net/2023/02/10/using-recommended-extensions-and-settings-in-vs-code
+* https://leonardofaria.net/2023/02/10/using-recommended-extensions-and-settings-in-vs-code[Using recommended extensions and settings in VS Code]

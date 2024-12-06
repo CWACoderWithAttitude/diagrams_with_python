@@ -1,6 +1,5 @@
 # barcode.py
 import segno
-import requests
 # https://realpython.com/urllib-request/
 from urllib.request import urlopen
 from matplotlib.pylab import qr

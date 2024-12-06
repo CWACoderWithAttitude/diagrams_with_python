@@ -1,6 +1,4 @@
 # donut_chart.py
-from turtle import color
-
 import matplotlib.pyplot as plt
 
 
