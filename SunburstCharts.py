@@ -29,4 +29,5 @@ data = {
 }
 
 sunburstCharts.sunburst_charter(data=data, filename="awesome_sunburst.png")
-sunburstCharts.bar_charter(data["id"], data["value"], filename="awesome_bar-chart.png")
+sunburstCharts.bar_charter(
+    data["id"], data["value"], filename="awesome_bar-chart.png")

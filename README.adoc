@@ -22,7 +22,7 @@ This devcontainer should have you covered and everything should work OotB.
 image::images/donut_chart.png[]
 
 === https://www.linkedin.com/posts/pythonclcoding_sunburst-chart-in-python-httpslnkdin-activity-7269372257771114496-06Nu[Sunburst Diagram]
-
+Based on https://plotly.com/python/choropleth-maps/[plotly] to render visuals from data.
 . SunburstCharts.py
 
 image::images/awesome_sunburst.png[]
@@ -45,14 +45,17 @@ image::images/4002590140452.png[]
 === QR Codes
 QR Codes are generated using https://segno.readthedocs.io/en/latest/[segno] package. The animated qr code makes use of the https://pypi.org/project/qrcode-artistic/[qrcode artistic] plugin.
 
-. basic_qrcode.py
-
+. QRCoder.py:generate_plain_qr_code
 image::images/qr_devContainers.png['Awesome devcontainers']
 
-. animated_qr-code.py
+. QRCoder.py:generate_animated_qr_code
 
 image::images/animated_qr_code.gif[]
 
+=== Density Plot
+[Example implementation of a DensityPlot](https://www.linkedin.com/posts/pythonclcoding_density-plot-using-python-httpslnkdin-activity-7250136270113259520-JKxZ) as described by Plthon Coding on LinkedIn.
+
+. DensityPlotter.py
 
 == Links
 * https://plotly.com/python/getting-started/#static-image-export[Export static images from plotly.express]
